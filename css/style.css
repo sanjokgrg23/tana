@@ -1,0 +1,382 @@
+@font-face {
+    font-family:geosanslight;
+	src: url(../fonts/GeosansLight.ttf);
+}
+@font-face {
+    font-family:PassionSansPDBA;
+	src: url(../fonts/PassionSansPDah-RegularItal.ttf);
+}
+@font-face {
+    font-family:Californian FB;
+	src: url(../fonts/Californian FB.ttf);
+}
+@font-face {
+    font-family:socialico;
+	src: url(../fonts/Socialico.ttf);
+}
+
+#container{
+background:none;
+}
+#background_image{
+background:none;
+width:1200px;
+margin-top:0;
+height:700px;
+background-image:url('../img/wedding.png');
+background-repeat:no-repeat;
+}
+#topimage_container{
+width:1200px;
+position:fixed;
+z-index:700;
+}
+#topimage{
+background-image:url('../img/toplogo.png');
+width:1200px;
+height:220px;
+}
+#navmenu ul li{
+float:left;
+display:block;
+padding:40px; 
+margin-top:100px;
+}
+#navmenu ul li a{
+text-decoration:none;
+color:white;
+font-family: geosanslight;
+font-size:19px;
+}
+#gallery_preview{
+width:1200px;
+}
+#title_container{
+margin-top:5px;
+}
+#text_slideshow{
+margin-top:380px;
+}
+#slideshow p{
+font-family:PassionSansPDBA;
+color:white;
+font-size:40px;
+line-height:50px;
+}
+#space{
+background-image:url('../img/space.png');
+height:20px;
+opacity:0;
+}
+#gallery_title p{
+color:#6b6464;
+font-family:PassionSansPDbi;
+font-size:27px;
+margin-left:10px;
+}
+#hr{
+height:1px;
+background-color:#d7d7d7;
+}
+#thumbnail{
+float:left;
+background-color:none;
+}
+#thumbnail h3{
+font-family:Californian FB;
+font-size:16px;
+}
+.thumbnail_small{
+margin-top:5px;
+margin-right:11px;
+}
+#gallery_container{
+width:1200px;
+margin-top:10px;
+}
+#view_hover{
+position:absolute;
+top:20px;
+opacity:0;
+z-index:50;
+}
+#see_all{
+display:block;
+margin-top:30px;
+}
+
+#see_all a{
+margin:3px;
+text-align:center;
+display:block;
+padding:4px;
+width:170px;
+font-family:gabriola;
+color:#8b8989;
+text-decoration:none;
+font-size:17px;
+border:1px solid #f3f2f2;
+-webkit-transition:0.7s ease-in-out;
+}
+
+#see_all a:hover{
+border:1px solid #b3b2b2;
+}
+#our_story_container{
+margin-top:10px;
+width:1200px;
+background-color:#f5f5f5;
+}
+#our_story_container h2{
+margin-left:5px;
+margin-top:10px;
+font-family:californian FB;
+color:#707070;
+}
+#our_story_container p{
+margin-top:5px;
+color:#707070;
+font-family:californian FB;
+font-size:18px;
+margin-bottom:15px;
+}
+#footer{
+  width:1200px;
+  background-color:#f5f5f5;
+  }
+#designer_sanjok{
+margin-top:20px;
+}
+#designer_sanjok ul li{
+color:#2c2c2c;
+font-family:californian FB;
+font-size:13px;
+}
+#address_shop{
+margin-top:20px;
+}
+#address_shop ul li{
+color:#2c2c2c;
+font-family:californian FB;
+text-align:center;
+font-size:13px;
+}
+#social{
+margin-top:20px;
+margin-bottom:10px;
+}
+#social ul li{
+
+font-family:californian FB;
+text-align:right;
+margin-right:10px;
+font-size:13px;
+}
+#social ul li span a{
+font-family:socialico;
+font-size:45px;
+text-decoration:none;
+color:#2c2c2c;
+}
+
+#facebook a,#twitter a,#pinterest a{
+-webkit-transition:0.5s ease-in-out;
+}
+#facebook a:hover{
+color:#429efc;
+}
+#twitter a:hover{
+color:#52e0ff;
+}
+#pinterest a:hover{
+color:#f85959;
+}
+#top_container{
+background:white;
+width:1200px;
+position:fixed;
+z-index:700;
+}
+#logo{
+background:none;
+background-image:url('../img/logo.png');
+height:100px;
+  }
+#nav_menu ul li a{
+float:left;
+display:block;
+color:#9e9c9c;
+padding:20px; 
+margin-left:48px;
+font-family: geosanslight;
+font-size:19px;
+text-decoration:none;
+}
+#image_container{
+width:1200px;
+background-image:url('../img/collage.png');
+height:1100px;
+background-repeat:repeat-y;
+}
+#ourstory{
+margin-top:200px;
+background:white;
+opacity:0.9;
+}
+#ourstory h2{
+color:black;
+font-family:californian FB;
+}
+#ourstory p{
+color:black;
+font-family:californian FB;
+}
+#about_us{
+background:white;
+opacity:0.9;
+margin-top:30px;
+}
+#about_us h2{
+color:black;
+font-family:californian FB;
+}
+#about_us p{
+color:black;
+font-family:californian FB;
+}
+#our_services{
+margin-top:200px;
+background:none;
+
+}
+#our_services h2{
+color:black;
+font-family:californian FB;
+}
+#our_services p{
+color:black;
+font-family:californian FB;
+}
+#contact{
+margin-top:200px;
+background:none;
+}
+#contact h2{
+color:black;
+font-family:californian FB;
+}
+#contact p{
+color:black;
+font-family:californian FB;
+}
+#contact_form{
+margin-bottom:30px;
+}
+#contact_form form table{
+margin-top:30px;
+}
+#contact_form form table tr td{
+margin-bottom:5px;
+position:relative;
+font-family:californian FB;
+}
+#wedding_container{
+width:1200px;
+margin-top:250px;
+margin-bottom:40px;
+}
+#event_container{
+width:900px;
+margin:auto;
+}
+#event_description{
+float:left;
+margin-top:10px;
+}
+#event_description h2{
+font-family:californian FB;
+}
+#event_description p{
+font-family:californian FB;
+}
+#event_image{
+float:left;
+margin-top:10px;
+}
+#event_image section img{
+margin-left:10px;
+}
+#albums{
+margin-top:240px;
+background:#eff2f2;
+width:1200px;
+}
+#albums h2{
+font-family:californian FB;
+}
+#albums_container{
+width:1200px;
+}
+#single_album{
+margin-left:2px;
+margin-top:5px;
+margin-bottom:5px;
+}
+#album_thumbnail{
+float:left;
+background-color:white;
+border:1px solid white;
+
+}
+#album_thumbnail span{
+visibility:hidden;
+}
+#album_thumbnail span:hover{
+color:black;
+}
+
+#album_thumbnail h3{
+font-family:Californian FB;
+font-size:16px;
+-webkit-transition:0.2s ease-in-out;
+}
+#album_thumbnail h3 a:hover{
+color:#c7c9c9;
+}
+#album_thumbnail h3 a{
+text-decoration:none;
+color:black;
+-webkit-transition:0.2s ease-in-out;
+}
+
+
+#album_thumbnail.thumbnail_small{
+margin-top:5px;
+margin-right:11px;
+}
+#view_album{
+width:1200px;
+margin-top:170px;
+}
+#view_album_container{
+width:1200px;
+}
+#view_album_container h3{
+font-family:californian FB;
+}
+#view_album_container p{
+font-family:californian FB;
+}
+#view_album_container h3{
+font-family:californian FB;
+}
+#gallery_table{
+width:1200px;
+}
+.input{
+font-family:Georgia;
+color:grey;
+}
+.inbox_table{
+border:1px solid black;
+}
